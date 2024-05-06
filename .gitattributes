@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+interactions_v1.json filter=lfs diff=lfs merge=lfs -text
+.json
+models/model_hf_97/checkpoint-1589 filter=lfs diff=lfs merge=lfs -text
+models/model_hf_97/config.json filter=lfs diff=lfs merge=lfs -text
+models/model_hf_97/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+models/model_hf_97/runs filter=lfs diff=lfs merge=lfs -text
+models/ filter=lfs diff=lfs merge=lfs -text
+data/ filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+.bin filter=lfs diff=lfs merge=lfs -text
+*json filter=lfs diff=lfs merge=lfs -text
